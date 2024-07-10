@@ -68,7 +68,7 @@ color: rgb(13, 19, 33);
 font-size: 12px;
 text-align: center;
 font-weight: 400;
-line-height:16px;
+line-height:20px;
 margin-bottom: 20px;
 }
 .banner button{
@@ -141,12 +141,13 @@ margin-top: 60px;
 margin-left: 100px;
 margin-right: 100px;
     }
-/* secon section styles */
+/* video styles */
 #vid  h2{
     font-size: 20px;
     color: rgb(13, 19, 33);
     text-align: center;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 #vid iframe{
     margin-top: 50px;
@@ -160,4 +161,54 @@ margin-right: 100px;
     align-items: center;
     margin-top: 50px;
     margin-left: 200px;
+}
+#target1 h2{
+    font-size: 20px;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+/* current target styles */
+#tech{
+   height: 300px;
+   width: 900px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 25px;
+align-items: center;
+justify-content: center;}
+#tech h4{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+#html{
+    border-radius: 16px;
+  padding: 20px;
+background-color: rgba(255, 76, 30, 0.05);
+height: 200px;
+width: 250px;
+text-align: left;
+}
+#css{
+    border-radius: 16px;
+  padding: 20px;
+background-color: rgba(0, 76, 232, 0.05);
+height: 200px;
+width: 250px;
+text-align: left;
+}
+#js{
+    border-radius: 16px;
+  padding: 20px;
+background-color:rgba(255, 223, 0, 0.05);
+height: 200px;
+width: 250px;
+text-align: left;
 }
