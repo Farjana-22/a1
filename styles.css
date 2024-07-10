@@ -141,4 +141,23 @@ margin-top: 60px;
 margin-left: 100px;
 margin-right: 100px;
     }
-
+/* secon section styles */
+#vid  h2{
+    font-size: 20px;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    margin-bottom: 15px;
+}
+#vid iframe{
+    margin-top: 50px;
+}
+#vid {
+    height: 700px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 200px;
+}
