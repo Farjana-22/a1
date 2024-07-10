@@ -176,6 +176,7 @@ margin-right: 100px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 #tech{
@@ -188,6 +189,9 @@ margin-right: 100px;
     gap: 25px;
 align-items: center;
 justify-content: center;}
+#tech a{
+    color: black;
+}
 #tech h4{
     color: rgb(13, 19, 33);
     font-size: 16px;
@@ -232,16 +236,32 @@ text-align: left;
     height: 30px;
     width: 30px;
 }
+/* support styles */
+#support {
+    height: 300px;
+    width: 900px;
+    background-image: url("assets/handshake.jpg");
+  background-size: cover;
+ 
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#feed {
+    display: flex;
+    flex-direction: row;
+margin: 30px 100px;
+}
 #support h4 {
     color: white;
     font-size: 20px;
 font-weight: 700;
-line-height: 36px;
 letter-spacing: 0%;
 text-align: center;
+margin: 30px auto 20px auto;
 }
 #support button{
     border-radius: 8px;
+    margin:0px 5px;
     border: none;
     color: rgb(13, 19, 33);
   padding:15px;
@@ -250,5 +270,38 @@ text-align: center;
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+   width: 100px;
+   height: 50px;
 background-color: rgb(255, 255, 255);
+}
+textarea{
+ text-align: center;
+ padding-top: 20px;
+   margin-right: 5px; 
+   border-radius: 8px;
+   border: none;
+}
+/* footer styles */
+#foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+margin: 30px 100px; 
+border-radius: 8px;
+height: 30px;
+background: rgba(13, 19, 33, 0.03);
+padding: 15px;
+}
+#foot h6{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 12px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+
+}
+#foot img{
+    height: 20px;
+    width: 20px;
 }
